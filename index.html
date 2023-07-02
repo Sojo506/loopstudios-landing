@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <!-- favicon -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <!-- primary meta tags -->
+    <title>Frontend Mentor | Loopstudios landing page</title>
+    <meta name="title" content="Frontend Mentor | Loopstudios landing page" />
+    <meta
+      name="description"
+      content="This is a landing page, which belongs to Frontend Mentor"
+    />
+
+    <!-- google font links -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:wght@300&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header class="header" data-header>
+      <div class="container">
+        <a href="#" class="logo">
+          <img src="images/logo.svg" alt="loopstudios logo" />
+        </a>
+
+        <nav class="navbar" data-navbar>
+          <div class="navbar__top container">
+            <a href="#" class="logo">
+              <img src="images/logo.svg" alt="loopstudios logo" />
+            </a>
+
+            <button
+              class="navbar__close-btn"
+              aria-label="close menu"
+              data-nav-toggler
+            >
+              <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+            </button>
+          </div>
+
+          <ul class="navbar__list">
+            <li>
+              <a href="#about" class="navbar__link">About</a>
+            </li>
+
+            <li>
+              <a href="#careers" class="navbar__link">Careers</a>
+            </li>
+
+            <li>
+              <a href="#events" class="navbar__link">Events</a>
+            </li>
+
+            <li>
+              <a href="#products" class="navbar__link">Products</a>
+            </li>
+
+            <li>
+              <a href="#support" class="navbar__link">Support</a>
+            </li>
+          </ul>
+
+          <ul class="navbar__social">
+            <li>
+              <a href="#" class="social__link">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social__link">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social__link">
+                <ion-icon name="logo-pinterest"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social__link">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+          </ul>
+        </nav>
+
+        <button
+          class="navbar__open-btn"
+          aria-label="open menu"
+          data-nav-toggler
+        >
+          <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+        </button>
+
+        <div class="overlay" data-nav-toggler data-overlay></div>
+      </div>
+    </header>
+
+    <!-- MAIN -->
+    <main class="main">
+      <div class="hero section">
+        <div class="container">
+          <div class="hero__content">
+            <h1 class="hero__title">Immersive experiences that deliver</h1>
+          </div>
+        </div>
+      </div>
+
+      <article class="interactive section container">
+        <figure class="interactive__image">
+          <img
+            src="/images/mobile/image-interactive.jpg"
+            alt="interactive image"
+            loading="lazy"
+            class="mobile__image shadow__image"
+          />
+
+          <img
+            src="/images/desktop/image-interactive.jpg"
+            alt="interactive__image"
+            loading="lazy"
+            class="desktop__image"
+          />
+        </figure>
+
+        <div class="interactive__content">
+          <h2 class="interactive__title">The leader in interactive VR</h2>
+
+          <p class="interactive__text">
+            Founded in 2011, Loopstudios has been producing world-class virtual
+            reality projects for some of the best companies around the globe.
+            Our award-winning creations have transformed businesses through
+            digital experiences that bind to their brand.
+          </p>
+        </div>
+      </article>
+
+      <section class="creations section container">
+        <h2 class="creations__title">Our Creations</h2>
+
+        <div class="creations__content">
+          <figure class="creations__image">
+            <img
+              src="/images/mobile/image-deep-earth.jpg"
+              alt="earth image"
+              class="mobile__image"
+            />
+            <img
+              src="/images/desktop/image-deep-earth.jpg"
+              alt="earth image"
+              class="desktop__image"
+            />
+          </figure>
+
+          <figure class="creations__image">
+            <img
+              src="/images/mobile/image-night-arcade.jpg"
+              alt="earth image"
+              class="mobile__image"
+            />
+            <img
+              src="/images/desktop/image-night-arcade.jpg"
+              alt="earth image"
+              class="desktop__image"
+            />
+          </figure>
+
+          <figure class="creations__image">
+            <img
+              src="/images/mobile/image-soccer-team.jpg"
+              alt="earth image"
+              class="mobile__image"
+            />
+            <img
+              src="/images/desktop/image-soccer-team.jpg"
+              alt="earth image"
+              class="desktop__image"
+            />
+          </figure>
+
+          <figure class="creations__image">
+            <img
+              src="/images/mobile/image-grid.jpg"
+              alt="earth image"
+              class="mobile__image"
+            />
+            <img
+              src="/images/desktop/image-grid.jpg"
+              alt="earth image"
+              class="desktop__image"
+            />
+          </figure>
+
+          <figure class="creations__image">
+            <img
+              src="/images/mobile/image-from-above.jpg"
+              alt="earth image"
+              class="mobile__image"
+            />
+            <img
+              src="/images/desktop/image-from-above.jpg"
+              alt="earth image"
+              class="desktop__image"
+            />
+          </figure>
+
+          <figure class="creations__image">
+            <img
+              src="/images/mobile/image-pocket-borealis.jpg"
+              alt="earth image"
+              class="mobile__image"
+            />
+            <img
+              src="/images/desktop/image-pocket-borealis.jpg"
+              alt="earth image"
+              class="desktop__image"
+            />
+          </figure>
+
+          <figure class="creations__image">
+            <img
+              src="/images/mobile/image-curiosity.jpg"
+              alt="earth image"
+              class="mobile__image"
+            />
+            <img
+              src="/images/desktop/image-curiosity.jpg"
+              alt="earth image"
+              class="desktop__image"
+            />
+          </figure>
+
+          <figure class="creations__image">
+            <img
+              src="/images/mobile/image-fisheye.jpg"
+              alt="earth image"
+              class="mobile__image"
+            />
+            <img
+              src="/images/desktop/image-fisheye.jpg"
+              alt="earth image"
+              class="desktop__image"
+            />
+          </figure>
+        </div>
+
+        <a href="#" class="creations__btn">See all</a>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <a href="#" class="logo">
+          <img src="images/logo.svg" alt="loopstudios logo" />
+        </a>
+
+        <ul class="navbar__list">
+          <li>
+            <a href="#about" class="navbar__link">About</a>
+          </li>
+
+          <li>
+            <a href="#careers" class="navbar__link">Careers</a>
+          </li>
+
+          <li>
+            <a href="#events" class="navbar__link">Events</a>
+          </li>
+
+          <li>
+            <a href="#products" class="navbar__link">Products</a>
+          </li>
+
+          <li>
+            <a href="#support" class="navbar__link">Support</a>
+          </li>
+        </ul>
+
+        <ul class="navbar__social">
+          <li>
+            <a href="#" class="social__link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social__link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social__link">
+              <ion-icon name="logo-pinterest"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social__link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+        </ul>
+
+        <p class="footer__text" data-footer-copy></p>
+      </div>
+    </footer>
+
+    <!-- custom js  -->
+    <script src="js/script.js"></script>
+
+    <!-- ionicons scripts -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
