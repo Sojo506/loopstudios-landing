@@ -361,7 +361,7 @@ body.nav-active {
 
 /* DEEP EARTH IMAGE */
 .creations__image:nth-child(1)::after {
-  content: "Deep Earth";
+  content: "Deep";
   position: absolute;
   bottom: 40px;
   left: 22px;
