@@ -33,6 +33,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  cursor: none;
 }
 
 li {
@@ -69,7 +70,7 @@ input {
 }
 
 button {
-  cursor: pointer;
+  /* cursor: pointer; */
 }
 
 ion-icon {
@@ -91,6 +92,7 @@ body {
   color: var(--black-coral);
   font-size: 1.5rem;
   line-height: 1.7;
+  cursor: none;
 }
 
 body.nav-active {
@@ -117,6 +119,30 @@ body.nav-active {
 
 .desktop__image {
   display: none;
+}
+
+/* --CURSOR-- */
+.cursor-dot {
+  width: 5px;
+  height: 5px;
+  background-color: var(--white);
+}
+
+.cursor-outline {
+  width: 30px;
+  height: 30px;
+  border: 2px solid var(--dark-gray);
+}
+
+.cursor-dot,
+.cursor-outline {
+  position: fixed;
+  top: 0;
+  left: 0;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  z-index: 100;
+  pointer-events: none;
 }
 
 /* --HEADER-- */
@@ -351,7 +377,7 @@ body.nav-active {
   overflow: hidden;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
   transition: var(--transition-3);
-  cursor: pointer;
+  /* cursor: pointer; */
 }
 
 .creations__image:is(:hover, :focus-visible) {
