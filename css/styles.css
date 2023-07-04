@@ -377,11 +377,6 @@ body.nav-active {
   /* cursor: pointer; */
 }
 
-.creations__image:is(:hover, :focus-visible) {
-  transform: scale(1.1);
-  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
-}
-
 /* DEEP EARTH IMAGE */
 .creations__image:nth-child(1)::after {
   content: "Deep";
@@ -563,6 +558,11 @@ body.nav-active {
 
   .creations__title {
     font-size: 3.5rem;
+  }
+
+  .creations__image:is(:hover, :focus-visible) {
+    transform: scale(1.1);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
   }
 }
 
