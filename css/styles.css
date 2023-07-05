@@ -234,7 +234,7 @@ body.nav-active {
   transition: var(--transition-1);
 }
 
-.navbar__link:is(:is(:hover, :focus-visible), :focus-visible) {
+.navbar__link:is(:hover, :focus-visible) {
   transform: translateY(-3px);
 }
 
@@ -252,7 +252,7 @@ body.nav-active {
   transition: var(--transition-1);
 }
 
-.social__link:is(:is(:hover, :focus-visible), :focus-visible) {
+.social__link:is(:hover, :focus-visible) {
   transform: translateY(-3px);
 }
 
